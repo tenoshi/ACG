@@ -106,6 +106,10 @@ Rules Locked During Item 1:
 - Multiple blockers may block the same attacker.
 - A single blocker cannot block multiple attackers unless a card explicitly allows it.
 - A player with a full board may still play Energy cards and activate legal card effects from hand.
-- Liberation counts as a hand-activated effect for full-board legality purposes.
 - Lightning timing model for v1 uses broad windows: after a card is played or effect resolves, before attacks are declared, after blockers are declared, and during end phase before cleanup.
 - Simultaneous trigger ordering resolves in reverse play order (newest to oldest).
+
+Card Pool Reset Note:
+- The prior exploratory card pool was intentionally discarded.
+- Active card tracking restarts from card #1 and preserves strict numbering order going forward.
+- The active card registry is the only source of truth for current cards.

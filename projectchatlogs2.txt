@@ -7,25 +7,14 @@ Session Rules Added/Confirmed:
 - Energy vs continuous lock:
   - Energy cards cannot be continuous.
   - Only Action cards can be continuous (infinity marker).
-- Card #54 (Quahog Happy Hour) dual-mode lock:
-  1) Play as normal Energy card: gain +1 energy.
-  2) Play from hand in sacrifice mode: gain 0 energy and resolve secondary effect (double ATKP of a drunkard unit).
-  3) Card #54 remains non-continuous Energy.
-- Liberation canonical lock:
-  - Discard one card to void, add one unit card from void to deck, then shuffle.
-  - Only Huey Freeman has Liberation at this stage.
 
 Card Set Status at Session 2 Checkpoint:
-- Total cards drafted/revised: 58.
-- Type counts checkpoint:
-  - Units: 18
-  - Actions: 19
-  - Energy: 21
+- Exploratory card pool from this session was later discarded.
+- Current retained card pool is tracked separately in the active card registry.
 
 Recent Revision Highlights:
-- Additional Energy card batch added and revised.
-- Multiple card renames and effect clarifications applied.
-- Hidden attribute examples introduced in design notes (e.g., bald, obese, booze, black_character).
+- Cross-device continuity workflow was established.
+- Session logging structure was established.
 
 Cross-Device Continuity Decision:
 - Use `projectchatlogsX.txt` files as structured session history.
@@ -39,18 +28,14 @@ Open Items:
 
 Next Actions:
 - Start Session 3 log on next continuation.
-- Continue card generation at 10 cards per batch.
-- Preserve canonical locks for Liberation and Energy-vs-Continuous in all future card designs.
+- Continue card generation with user-controlled creative decisions.
+- Preserve global gameplay rules in future card designs.
 
 Timeline Summary (Near-Transcript):
 - Started Session 2 by planning repository bootstrapping plus persistent session logging.
 - Continued iterative card-first workflow; design-system work remained intentionally deferred.
-- Processed multiple user-directed rename and effect rewrite batches card-by-card.
-- Resolved type ambiguity for card #20 by explicitly setting it to Action.
-- Closed pending-review list by mapping the remaining card updates in sequence.
-- Canonized Liberation wording and clarified that only Huey Freeman currently uses it.
-- Expanded energy card roster and then revised specific cards based on user direction.
+- Processed multiple user-directed card edits during exploratory design work.
 - Locked global rule: energy cards cannot be continuous; only action cards can use infinity behavior.
-- Locked card #54 dual-mode behavior: standard energy mode or hand-play sacrifice mode with no energy gain.
 - Locked generation preference for future work: produce cards in batches of 10.
 - Established cross-device continuity strategy: maintain numbered projectchatlogs files per session.
+- Later, the exploratory card pool from this phase was intentionally discarded for a clean rebuild.

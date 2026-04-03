@@ -127,7 +127,6 @@ Zone limits and legality:
 5. A player with a full board may still:
    - play Energy cards
    - activate legal card effects from hand
-6. Liberation counts as a legal hand-activated effect while board is full.
 
 ## 12. Void Rules
 
@@ -171,20 +170,7 @@ If multiple Lightning plays occur in sequence, each resolved card or effect may 
 ### SuperSpeed
 A unit with SuperSpeed may attack on the same turn it is summoned.
 
-### Liberation
-Liberation means: discard one card to void, then add one unit card from void to deck, then shuffle.
-
-At Rules Spec v1 time, only Huey Freeman uses Liberation.
-
-## 18. Locked Card-Specific Rule: Card #54
-
-Card #54, Quahog Happy Hour, has two legal play modes:
-1. Normal Energy mode: gain +1 energy.
-2. Hand-play sacrifice mode: gain 0 energy and resolve the alternate effect.
-
-Card #54 remains a non-continuous Energy card in both modes.
-
-## 19. Rule Priority
+## 18. Rule Priority
 
 If rules conflict, use this priority order:
 1. Explicit card text
