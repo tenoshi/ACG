@@ -109,6 +109,7 @@ This document is the authoritative gameplay rules specification for ACG Version 
 5. Energy may be gained, spent, removed, or modified by card effects.
 6. A card's energy cost must be paid in full before that card resolves.
 7. If a card has multiple legal play modes, the chosen mode determines whether energy is gained, spent, or ignored.
+8. Energy cards cannot have attributes.
 
 ## 11. Field and Zone Rules
 
@@ -148,6 +149,11 @@ Zone limits and legality:
 1. Continuous effects only exist on Action cards unless a future core rule changes this.
 2. A continuous effect remains active while its source card remains legally in play.
 3. If a continuous Action card leaves play, its continuous effect ends immediately unless the card says otherwise.
+
+## 14.1 Attributes Scope Rule
+
+1. Attributes are only valid on Unit cards and Action cards.
+2. Energy cards cannot have attributes.
 
 ## 15. Lightning Timing Windows
 

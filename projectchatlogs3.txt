@@ -113,3 +113,7 @@ Card Pool Reset Note:
 - The prior exploratory card pool was intentionally discarded.
 - Active card tracking restarts from card #1 and preserves strict numbering order going forward.
 - The active card registry is the only source of truth for current cards.
+
+Item 2 Locked Rule Additions:
+- Energy cards cannot have attributes.
+- Attributes are only for Unit and Action cards.
