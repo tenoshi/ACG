@@ -4,4 +4,7 @@ This file is the only source of truth for the current active card list.
 Deleted cards are not tracked here.
 Numbering order is preserved from this point forward.
 
-#01 | Stewie's Toy Chest | Show: Family Guy | Type: Energy | Cost: 0 | Value: +1 | ATKP/HP: — | Attr: — | Effect: Add 1 energy
+Format:
+card number | card name | show | set | card type (energy, unit, action) | energy cost | energy output (if applicable) | ATKP/HP (if applicable) | effect | attributes
+
+#01 | Stewie's Toy Chest | Family Guy | 1 | Energy | 0 | +1 | — | Add 1 energy | —
