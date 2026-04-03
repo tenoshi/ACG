@@ -1,0 +1,90 @@
+Date: 2026-04-03
+Session: 3
+Goal: Move from planning into implementation using a strict one-item-at-a-time workflow.
+
+Overall Goal:
+Build a playable, testable ACG game runtime for Tabletop Simulator, then expand card content safely through validated batches.
+
+Master Roadmap (Tracked Checklist):
+1) Lock Rules Spec v1 (authoritative gameplay rules)
+Status: in-progress
+Definition of done:
+- Turn phases finalized
+- Zone behavior finalized
+- Combat/block timing finalized
+- Energy, slot caps, and lockout rules finalized
+- Deck legality finalized
+
+2) Lock Card Schema v1
+Status: not-started
+Definition of done:
+- Required fields list finalized
+- Optional fields list finalized
+- Hidden attribute/tag model finalized
+- Effect linkage field finalized (effect_id)
+
+3) Build Effect Catalog v1
+Status: not-started
+Definition of done:
+- Every existing card maps to an effect_id
+- Parameters per effect_id defined
+- Timing windows per effect family defined
+
+4) Build Engine Skeleton (no full content yet)
+Status: not-started
+Definition of done:
+- Game state manager
+- Turn/phase manager
+- Play validation layer
+- Combat resolution core
+- Effect resolver shell
+
+5) Build Test Harness v1
+Status: not-started
+Definition of done:
+- Core rules scenario tests
+- Card-specific regression tests for locked edge cases
+- Deterministic random test mode
+
+6) Import Existing Card Pool Into Schema
+Status: not-started
+Definition of done:
+- Current pool imported
+- Schema validation passing
+- Effect mapping complete for imported cards
+
+7) Content Pipeline for New Cards (10-card batches)
+Status: not-started
+Definition of done:
+- Add 10 cards
+- Validate schema
+- Validate effect mapping
+- Run regressions
+- Approve batch
+
+8) Balance Pass v1
+Status: not-started
+Definition of done:
+- Cost/power sanity sweep
+- Outlier effects adjusted
+- Multiplayer fairness pass completed
+
+9) TTS Integration Pass
+Status: not-started
+Definition of done:
+- Save/load flow stable
+- UI/state sync stable
+- Manual playtest cycle stable
+
+Execution Rule:
+- Only work one roadmap item at a time.
+- Do not start next item until current item is marked complete.
+
+Current Focus Item:
+1) Lock Rules Spec v1
+
+Open Questions To Resolve During Item 1:
+- Precise timing for instant-speed windows in each phase
+- Ordering when multiple triggers happen at the same timing point
+- Exact resolution order for simultaneous unit destruction
+- Clarify whether temporary buffs expire at end of owner turn or full round
