@@ -1,0 +1,40 @@
+Date: 2026-04-02
+Session: 1
+Goal: Define core game loop, card system direction, and initial card pool.
+
+Decisions Locked:
+- Platform: Tabletop Simulator mod (Lua, TTS save workflow).
+- Game structure: MTG-inspired card game; up to 6 players; starting LP 25.
+- Draw rules: draw 5 on game start; draw 1 at turn start.
+- Energy rules: energy carries over turn-to-turn; default cap 10 unless card overrides.
+- Field limits per player: max 6 Unit slots + 6 Action slots.
+- Play lock rules:
+  - If 6 continuous action cards are in play, that player cannot play more action cards.
+  - If 6 unit slots and 6 action slots are full, that player cannot play any cards.
+- Deck construction: 40-50 cards total; default max copies per card is 1 unless card text allows more.
+- Set mixing: cards from different animated shows can be mixed in one deck.
+- Combat timing: attack phase at end of turn.
+- Summoning timing: units cannot attack on summon unless they have SuperSpeed.
+- Blocking: optional unless a card says must block.
+- Instant-speed cards: lightning-symbol cards can be played during opponents' turns and always cost energy.
+- Any-target rule: when a card says unit can attack any player, controlling player chooses the target.
+- Continuous marker: infinity symbol is used for continuous action cards.
+- Energy cards are not continuous.
+
+Card Design Progress:
+- Large initial card batch drafted and revised card-by-card.
+- Named cards and effects established across multiple shows.
+- Session ended with ongoing card expansion and rules consolidation.
+
+Canonical Rules:
+- Liberation: discard one card to void, add one unit card from void to deck, then shuffle.
+- At end of Session 1, Liberation was exclusive to Huey Freeman.
+
+Open Items:
+- Continue expanding card pool.
+- Formal keyword system pass later.
+- Balance pass later.
+
+Next Actions:
+- Continue card generation in fixed-size batches.
+- Keep structured session logs for cross-device continuity.

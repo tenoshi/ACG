@@ -1,0 +1,43 @@
+Date: 2026-04-03
+Session: 2
+Goal: Continue card expansion, lock edge-case card rules, and establish continuation workflow.
+
+Session Rules Added/Confirmed:
+- Card generation preference: generate new cards in batches of 10.
+- Energy vs continuous lock:
+  - Energy cards cannot be continuous.
+  - Only Action cards can be continuous (infinity marker).
+- Card #54 (Quahog Happy Hour) dual-mode lock:
+  1) Play as normal Energy card: gain +1 energy.
+  2) Play from hand in sacrifice mode: gain 0 energy and resolve secondary effect (double ATKP of a drunkard unit).
+  3) Card #54 remains non-continuous Energy.
+- Liberation canonical lock:
+  - Discard one card to void, add one unit card from void to deck, then shuffle.
+  - Only Huey Freeman has Liberation at this stage.
+
+Card Set Status at Session 2 Checkpoint:
+- Total cards drafted/revised: 58.
+- Type counts checkpoint:
+  - Units: 18
+  - Actions: 19
+  - Energy: 21
+
+Recent Revision Highlights:
+- Additional Energy card batch added and revised.
+- Multiple card renames and effect clarifications applied.
+- Hidden attribute examples introduced in design notes (e.g., bald, obese, booze, black_character).
+
+Cross-Device Continuity Decision:
+- Use `projectchatlogsX.txt` files as structured session history.
+- Never overwrite prior session files; create a new numbered file each session.
+
+Open Items:
+- Continue card creation and revisions.
+- Do keyword formalization after broader card pool is stable.
+- Do balance/tuning pass after keyword formalization.
+- Defer TTS code/scripts until design is stabilized.
+
+Next Actions:
+- Start Session 3 log on next continuation.
+- Continue card generation at 10 cards per batch.
+- Preserve canonical locks for Liberation and Energy-vs-Continuous in all future card designs.
