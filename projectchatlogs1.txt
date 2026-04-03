@@ -38,3 +38,16 @@ Open Items:
 Next Actions:
 - Continue card generation in fixed-size batches.
 - Keep structured session logs for cross-device continuity.
+
+Timeline Summary (Near-Transcript):
+- Confirmed project direction as a separate TTS mod project, not a BOMBA Chess variant.
+- Locked baseline loop: LP 25 start, draw 5 opening, draw 1 per turn, end-turn attack phase.
+- Clarified energy behavior: carry-over pool, cap 10 unless overridden, positive and negative energy effects.
+- Defined card families in practice: Unit, Action, Energy; continuous behavior reserved for action cards.
+- Clarified interaction timing: optional blocking unless forced, lightning cards for opponent-turn play.
+- Locked multiplayer targeting semantics: any-target attacks are chosen by controlling player.
+- Locked deck rules: 40-50 cards, default single-copy unless card text overrides.
+- Locked field constraints: 6 unit slots + 6 action slots with explicit lockout behavior when full.
+- Created and revised initial card set heavily through direct numbered edits.
+- Finalized Liberation wording and temporary exclusivity to Huey Freeman.
+- Deferred keyword formalization and balance pass until after larger card pool expansion.

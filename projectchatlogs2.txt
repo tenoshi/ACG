@@ -41,3 +41,16 @@ Next Actions:
 - Start Session 3 log on next continuation.
 - Continue card generation at 10 cards per batch.
 - Preserve canonical locks for Liberation and Energy-vs-Continuous in all future card designs.
+
+Timeline Summary (Near-Transcript):
+- Started Session 2 by planning repository bootstrapping plus persistent session logging.
+- Continued iterative card-first workflow; design-system work remained intentionally deferred.
+- Processed multiple user-directed rename and effect rewrite batches card-by-card.
+- Resolved type ambiguity for card #20 by explicitly setting it to Action.
+- Closed pending-review list by mapping the remaining card updates in sequence.
+- Canonized Liberation wording and clarified that only Huey Freeman currently uses it.
+- Expanded energy card roster and then revised specific cards based on user direction.
+- Locked global rule: energy cards cannot be continuous; only action cards can use infinity behavior.
+- Locked card #54 dual-mode behavior: standard energy mode or hand-play sacrifice mode with no energy gain.
+- Locked generation preference for future work: produce cards in batches of 10.
+- Established cross-device continuity strategy: maintain numbered projectchatlogs files per session.
