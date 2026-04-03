@@ -15,7 +15,16 @@ Definition of done:
 - Energy, slot caps, and lockout rules finalized
 - Deck legality finalized
 
-2) Lock Card Schema v1
+2) Expand Card Pool, Attributes, and Special Mechanics
+Status: not-started
+Definition of done:
+- Add substantial additional card pool beyond current base set
+- Build a working list of gameplay-relevant attributes
+- Build a working list of special mechanics and rule exceptions
+- Identify recurring effect patterns from real cards
+- Defer formal schema decisions until mechanic set is broader and more stable
+
+3) Lock Card Schema v1
 Status: not-started
 Definition of done:
 - Required fields list finalized
@@ -23,14 +32,14 @@ Definition of done:
 - Hidden attribute/tag model finalized
 - Effect linkage field finalized (effect_id)
 
-3) Build Effect Catalog v1
+4) Build Effect Catalog v1
 Status: not-started
 Definition of done:
 - Every existing card maps to an effect_id
 - Parameters per effect_id defined
 - Timing windows per effect family defined
 
-4) Build Engine Skeleton (no full content yet)
+5) Build Engine Skeleton (no full content yet)
 Status: not-started
 Definition of done:
 - Game state manager
@@ -39,21 +48,21 @@ Definition of done:
 - Combat resolution core
 - Effect resolver shell
 
-5) Build Test Harness v1
+6) Build Test Harness v1
 Status: not-started
 Definition of done:
 - Core rules scenario tests
 - Card-specific regression tests for locked edge cases
 - Deterministic random test mode
 
-6) Import Existing Card Pool Into Schema
+7) Import Existing Card Pool Into Schema
 Status: not-started
 Definition of done:
 - Current pool imported
 - Schema validation passing
 - Effect mapping complete for imported cards
 
-7) Content Pipeline for New Cards (10-card batches)
+8) Content Pipeline for New Cards (10-card batches)
 Status: not-started
 Definition of done:
 - Add 10 cards
@@ -62,14 +71,14 @@ Definition of done:
 - Run regressions
 - Approve batch
 
-8) Balance Pass v1
+9) Balance Pass v1
 Status: not-started
 Definition of done:
 - Cost/power sanity sweep
 - Outlier effects adjusted
 - Multiplayer fairness pass completed
 
-9) TTS Integration Pass
+10) TTS Integration Pass
 Status: not-started
 Definition of done:
 - Save/load flow stable
@@ -81,7 +90,11 @@ Execution Rule:
 - Do not start next item until current item is marked complete.
 
 Current Focus Item:
-2) Lock Card Schema v1
+2) Expand Card Pool, Attributes, and Special Mechanics
+
+Pivot Note:
+- Schema and engine planning are intentionally deferred until the broader mechanic set is better understood through additional card design.
+- Current priority is discovering the real gameplay surface area before freezing data structures.
 
 Open Questions To Resolve During Item 1:
 - None. Rules Spec v1 finalized in RULES_SPEC_V1.md.
