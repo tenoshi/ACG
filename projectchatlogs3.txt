@@ -7,7 +7,7 @@ Build a playable, testable ACG game runtime for Tabletop Simulator, then expand 
 
 Master Roadmap (Tracked Checklist):
 1) Lock Rules Spec v1 (authoritative gameplay rules)
-Status: in-progress
+Status: complete
 Definition of done:
 - Turn phases finalized
 - Zone behavior finalized
@@ -81,10 +81,18 @@ Execution Rule:
 - Do not start next item until current item is marked complete.
 
 Current Focus Item:
-1) Lock Rules Spec v1
+2) Lock Card Schema v1
 
 Open Questions To Resolve During Item 1:
-- Precise timing for instant-speed windows in each phase
-- Ordering when multiple triggers happen at the same timing point
-- Exact resolution order for simultaneous unit destruction
-- Clarify whether temporary buffs expire at end of owner turn or full round
+- None. Rules Spec v1 finalized in RULES_SPEC_V1.md.
+
+Rules Locked During Item 1:
+- Drawing from an empty deck causes immediate loss unless a card controlled by that player explicitly prevents or replaces that loss.
+- Attackers can target units directly.
+- Only units with the `target` attribute can be targeted directly for attacks.
+- Multiple blockers may block the same attacker.
+- A single blocker cannot block multiple attackers unless a card explicitly allows it.
+- A player with a full board may still play Energy cards and activate legal card effects from hand.
+- Liberation counts as a hand-activated effect for full-board legality purposes.
+- Lightning timing model for v1 uses broad windows: after a card is played or effect resolves, before attacks are declared, after blockers are declared, and during end phase before cleanup.
+- Simultaneous trigger ordering resolves in reverse play order (newest to oldest).
